@@ -1,0 +1,5 @@
+const res = await fetch('https://api.laztar.com/api/v1/projects', {
+    cache: 'no-store',
+    });
+    const data = await res.json();
+{data?.[0]?.image}

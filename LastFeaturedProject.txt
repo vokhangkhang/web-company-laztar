@@ -1,0 +1,146 @@
+import { data } from "framer-motion/client";
+import Image from 'next/image';
+
+export default async function LastFeaturedProject() {
+  return (
+    <div className=" w-fit bg-[#0E1821] flex pt-[75px] pl-[79.5px] pr-[79.5px] pb-[91px] gap-[55.5px] overflow-hidden mt-[5px]
+                    max-md:flex-col max-md:items-center max-md:self-stretch max-md:pl-[0px] max-md:pr-[0px] max-md:pb-[0px] max-md:gap-[32px]">
+    <div className="gap-[48px] flex flex-col max-md:order-2
+                    max-md:flex max-md:w-[408px] max-md:pt-[32px] max-md:pb-[64px] max-md:flex-col max-md:items-start max-md:gap-[30px] max-md:ml-[16px] max-md:mr-[16px] ">
+        <div className="w-[536.25px] h-[388px] bg-[#0E1821]
+                        max-md:flex max-md:w-[392px] max-md:h-[155px] max-md:flex-col max-md:gap-[12px]">
+            <div className="w-[536.25px] h-[196px] bg-[#0E1821] 
+                             max-md:w-fit max-md:h-fit ">
+                <div className="w-[121px] h-[16px] bg-[#0E1821] max-md:w-fit max-md:h-fit">
+                    <p className="font-inter text-[#ABC1CC] text-[12px] leading-[16px]
+                                   max-md:self-stretch max-md:text-[#EEF7FD] max-md:text-[18px] max-md:font-normal max-md:leading-[27px]">
+                        WEBSITE PLATFORM
+                    </p>
+                </div>
+                <div className="w-[536.25px] h-[132px] bg-[#0E1821] mt-[12px] max-md:w-fit max-md:h-fit max-md:mt-[0px] ">
+                    <p className="font-inter text-[#ffffff] text-[36px] leading-[44px]
+                                  max-md:self-stretch max-md:text-[#EEF7FD] max-md:text-[30px] max-md:font-semibold max-md:leading-[38px]"> 
+                        ERP Platform – Custom Enterprise Resource Planning Solution
+                    </p>
+                </div>
+                <div className="w-[127px] h-[24px] bg-[#0E1821] mt-[12px] flex gap-2 max-md:w-fit max-md:h-fit max-md:gab-[12px] ">
+                    <button className="w-[48px] h-[24px] text-[#ffffff] rounded-[4.5] bg-[#000007] text-[12px]
+                                        max-md:flex max-md:py-[6px] max-md:px-[12px] max-md:justify-center max-md:items-center max-md:gap-[8px] max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white max-md:bg-[linear-gradient(153deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] max-md:backdrop-blur-[15.75px]">
+                    ERP
+                    </button>
+                    <button className="w-[65px] h-[24px] text-[#ffffff] rounded-[4.5] bg-[#000007] text-[12px]
+                                        max-md:flex max-md:py-[6px] max-md:px-[12px] max-md:justify-center max-md:items-center max-md:gap-[8px] max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white max-md:bg-[linear-gradient(153deg,_rgba(255,_255,_255,_0.12)_0%,_rgba(255,_255,_255,_0)_100%)] max-md:backdrop-blur-[15.75px]">
+                    Custom
+                    </button>
+                </div>
+            </div>
+            <div className="w-[501.75px] h-[96px] bg-[#0E1821] text-[#ffffff] mt-[14px] max-md:w-fit max-md:h-fit max-md:mt-[0px]
+                            max-md:flex max-md:flex-col max-md:items-start max-md:gap-[24px] max-md:self-stretch">
+                <p className="font-inter text-[#ffffff] text-[16px] leading-[24px]
+                            max-md:self-stretch max-md:text-[#EEF7FD] max-md:font-normal max-md:text-[16px] max-md:leading-[24px]">
+                 Powerful ERP platform, works on all devices, helps businesses standardize human resource management (payroll, leave), improve operational coordination efficiency and seamlessly handle multi-dimensional business processes.   
+                </p>
+            </div>
+            <div className="w-[501.75px] h-[24px] bg-[#0E1821] text-[#ffffff] mt-[20px] flex gap-1 max-md:w-fit max-md:h-fit max-md:mt-[0px]">
+                <p className="font-inter text-[#ffffff] text-[16px] leading-[24px]
+                            max-md:font-sans max-md:text-[16px] max-md:font-normal">
+                Thời gian:
+                </p>
+                <p className="font-Montserrat text-[#ffffff] text-[15px] leading-[150%] font-bold
+                                max-md:font-sans max-md:text-[16px] max-md:font-normal">
+                    18 tháng
+                </p>
+            </div>
+            <div className="w-[492px] h-[18px] bg-[#0E1821] mt-[20px] flex gap-1 max-md:flex-col 
+                            max-md:w-fit max-md:h-fit max-md:mt-[0px] max-md:gap-[12px]">
+            <div className="flex gap-1 max-md:items-center max-md:gap-[12px]">
+                <button className="w-[64px] h-[18px] text-[#ffffff] rounded-[4.5] bg-[#0E1825] text-[10px] max-md:w-fit max-md:h-fit
+                                    max-md:flex max-md:py-[2px] max-md:px-[8px] max-md:justify-center max-md:items-center max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white ">
+                    .NET Core
+                </button>
+                <button className="w-[51px] h-[18px] text-[#ffffff] rounded-[4.5] bg-[#0E1825] text-[10px] max-md:w-fit max-md:h-fit
+                                    max-md:flex max-md:py-[2px] max-md:px-[8px] max-md:justify-center max-md:items-center max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white">
+                    Node.js
+                </button>
+                <button className="w-[96px] h-[18px] text-[#ffffff] rounded-[4.5] bg-[#0E1825] text-[10px] max-md:w-fit max-md:h-fit
+                                    max-md:flex max-md:py-[2px] max-md:px-[8px] max-md:justify-center max-md:items-center max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white">
+                    .NET MVC(HTML)
+                </button>
+                <button className="w-[52px] h-[18px] text-[#ffffff] rounded-[4.5] bg-[#0E1825] text-[10px] max-md:w-fit max-md:h-fit
+                                    max-md:flex max-md:py-[2px] max-md:px-[8px] max-md:justify-center max-md:items-center max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white">
+                    React.js
+                </button>
+                </div>
+                <div className="flex gap-1 max-md:items-center max-md:gap-[12px]">
+                <button className="w-[46px] h-[18px] text-[#ffffff] rounded-[4.5] bg-[#0E1825] text-[10px] max-md:w-fit max-md:h-fit
+                                    max-md:flex max-md:py-[2px] max-md:px-[8px] max-md:justify-center max-md:items-center max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white">
+                    Flutter
+                </button>
+                <button className="w-[90px] h-[18px] text-[#ffffff] rounded-[4.5] bg-[#0E1825] text-[10px] max-md:w-fit max-md:h-fit
+                                    max-md:flex max-md:py-[2px] max-md:px-[8px] max-md:justify-center max-md:items-center max-md:rounded-[4.5px] max-md:border-[0.75px] max-md:border-white">
+                    RESt+Graphol
+                </button>
+                </div>
+            </div>
+        </div>
+        <div className="w-[536.25px] h-[148px] bg-[#0E1821] text-[#ffffff] mt-[48px] max-md:w-fit max-md:h-fit max-md:mt-[0px]">
+            <p className="font-inter text-[#989faa] text-[12px] leading-[16px]">
+            Điểm nổi bật
+            </p>
+            <div className="w-[536.25px] h-[40px] bg-[#0E1821] mt-[30px] flex gap-5 max-md:w-fit max-md:h-fit 
+                            max-md:flex max-md:justify-between max-md:items-center max-md:self-stretch">
+                <div className="w-[261px] h-[40px] bg-[#0E1821] mt-[0px] max-md:w-[196px] max-md:h-[58px]
+                                max-md:flex max-md:flex-col max-md:items-start max-md:gap-[8px]">
+                    <img className="w-[12.73px] h-[12.73px]"
+                    src="https://res.cloudinary.com/dtipeaspf/image/upload/v1751442984/Rectangle_4_b0fgwi.png"
+                    alt="image uploading"
+                    />
+                    <p className="font-inter text-[#abc1cc] text-[12px] leading-[16px]">
+                        Quản trị nhân sự toàn diện & tự động hóa
+                    </p>
+                </div>
+                <div className="w-[210px] h-[40px] bg-[#0E1821] mt-[0px] max-md:w-[196px] max-md:h-[58px]
+                                max-md:flex max-md:flex-col max-md:items-start max-md:gap-[8px]">
+                    <img className="w-[12.73px] h-[12.73px] "
+                    src="https://res.cloudinary.com/dtipeaspf/image/upload/v1751442984/Rectangle_4_b0fgwi.png"
+                    alt="image uploading"
+                    />
+                    <p className="font-inter text-[#abc1cc] text-[12px] leading-[16px]">
+                        Vận hành linh hoạt vượt trội
+                    </p>
+                </div>               
+            </div>
+            <div className="w-[536.25px] h-[56px] bg-[#0E1821] mt-[22px] flex gap-5 max-md:w-fit max-md:h-fit
+                            max-md:flex max-md:justify-between max-md:items-center max-md:self-stretch">
+                <div className="w-[261px] h-[40px] bg-[#0E1821] mt-[0px] max-md:w-[196px] max-md:h-[58px]
+                                max-md:flex max-md:flex-col max-md:items-start max-md:gap-[8px]">
+                    <img className="w-[12.73px] h-[12.73px] "
+                    src="https://res.cloudinary.com/dtipeaspf/image/upload/v1751442984/Rectangle_4_b0fgwi.png"
+                    alt="image uploading"
+                    />
+                    <p className="font-inter text-[#abc1cc] text-[12px] leading-[16px]">
+                        Tích hợp hệ thống mạnh mẽ & liền mạch
+                    </p>
+                </div>
+                <div className="w-[210px] h-[40px] bg-[#0E1821] mt-[0px] max-md:w-[196px] max-md:h-[58px]
+                                max-md:flex max-md:flex-col max-md:items-start max-md:gap-[8px]">
+                    <img className="w-[12.73px] h-[12.73px] text-[#ffffff]"
+                    src="https://res.cloudinary.com/dtipeaspf/image/upload/v1751442984/Rectangle_4_b0fgwi.png"
+                    alt="image uploading"
+                    />
+                    <p className="font-inter text-[#abc1cc] text-[12px] leading-[16px]">
+                        Nâng cao hiệu suất & Tối ưu hóa nguồn lực
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img className="w-[689.25px] h-[516px] rounded-[28.75] aspect-[689.25/516] max-md:order-1
+                    max-md:h-[465px] max-md:self-stretch max-md:aspect-[88/93] max-md:rounded-[12px]"
+    src="https://res.cloudinary.com/dtipeaspf/image/upload/v1751436633/bca4376d530f172b2b99c238e776ebb9693fbc78_pamu8f.png" 
+    alt="image uploading"
+    />
+    </div>
+  );
+}

@@ -1,0 +1,34 @@
+/* components/FloatingInput.module.css */
+.inputWrapper {
+  position: relative;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 8px;
+  color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  background: none;
+}
+
+.floatingLabel {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+  color: #888;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.inputField:focus + .floatingLabel,
+.inputField:not(:placeholder-shown) + .floatingLabel,
+.inputField:valid + .floatingLabel {
+  top: -8px;
+  left: 6px;
+  font-size: 12px;
+  background-color: white;
+  padding: 0 4px;
+}
