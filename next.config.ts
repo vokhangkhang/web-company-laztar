@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizeCss: false // Tắt LightningCSS
-  }
+  },
 };
 
 export default nextConfig;
