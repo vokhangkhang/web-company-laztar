@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // ✅ tắt tối ưu hóa ảnh
   },
+  experimental: {
+    optimizeCss: false // Tắt LightningCSS
+  }
 };
 
 export default nextConfig;
