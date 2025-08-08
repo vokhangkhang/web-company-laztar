@@ -1,9 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // cho phép xuất ra static HTML
-  basePath: "/web-company-laztar", // tên repo của bạn
+  // basePath: "/web-company-laztar", // tên repo của bạn
   trailingSlash: true,
+  // output: "export",
+  images: {
+    unoptimized: true, // ✅ tắt tối ưu hóa ảnh
+  },
 };
 
 export default nextConfig;

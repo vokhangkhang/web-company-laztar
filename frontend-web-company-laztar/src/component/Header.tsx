@@ -10,8 +10,8 @@ const Header = () => {
       >
       <a href='/'>
          <img
-          src="https://res.cloudinary.com/dtipeaspf/image/upload/v1751354861/8a2d5fde0b6c26d9230e2e30e1ddf3252e633448_ijab0g.png"
-          style={{ width: '10vw', height: '15vh', cursor: 'pointer', margin:'-2vh auto auto -2vw' }}
+          src="/images/logo-page.jpg"
+          style={{  width: '10vw', height: '10vh', cursor: 'pointer', borderRadius: "50%" }}
           alt="logo"
           />
         </a></motion.div>
@@ -23,7 +23,7 @@ const Header = () => {
         <a href='/' style={{cursor: 'pointer', fontSize:'150%'}}>Home</a>
         <a href='/about_us'style={{cursor: 'pointer', marginLeft: '5%', fontSize:'150%'}}>About_us</a>
         <a href='/services' style={{cursor: 'pointer', marginLeft: '5%', fontSize:'150%'}}>Services</a>
-        <a href='/projects' style={{cursor: 'pointer', marginLeft: '5%', fontSize:'150%'}}>Project</a>
+        <a href='/projects' style={{cursor: 'pointer', marginLeft: '5%', fontSize:'150%'}}>video</a>
         <a href='/careers' style={{cursor: 'pointer', marginLeft: '5%', fontSize:'150%'}}>Careers</a>
         <a href='/blog' style={{cursor: 'pointer', marginLeft: '5%', fontSize:'150%'}}>Blog</a>
       </samp>

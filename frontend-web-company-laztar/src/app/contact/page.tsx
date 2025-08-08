@@ -107,16 +107,16 @@ export default function ContactPage() {
                 </div> 
                 <div className="flex flex-col gap-[32px]">              
                   <div className="flex gap-[32px]"> 
-                      <input name="email" type="email" placeholder="Email" onChange={handleChange} required onKeyDown={handleKeyNavigation} className="border-b border-gray-400 p-2 w-full" />             
-                      <input name="name" placeholder="Tên" onChange={handleChange} required onKeyDown={handleKeyNavigation} className="border-b border-gray-400 p-2 w-full" />                   
+                      <input name="email" type="email" placeholder="Email" onChange={handleChange} required onKeyDown={handleKeyNavigation} className="bg-[#ffffff] p-[5px] text-[20px] text-[#000000] w-full" />             
+                      <input name="name" placeholder="Tên" onChange={handleChange} required onKeyDown={handleKeyNavigation} className="bg-[#ffffff] p-[5px] text-[20px] text-[#000000] w-full" />                   
                   </div>
                   <div className="flex gap-[32px]">  
-                      <input name="company" placeholder="Công ty" onChange={handleChange} onKeyDown={handleKeyNavigation} className="border-b border-gray-400 p-2 w-full" />
-                      <input name="phone" placeholder="Số điện thoại" onChange={handleChange} required onKeyDown={handleKeyNavigation} className="border-b border-gray-400 p-2 w-full" />   
+                      <input name="company" placeholder="Công ty" onChange={handleChange} onKeyDown={handleKeyNavigation} className="bg-[#ffffff] p-[5px] text-[20px] text-[#000000] w-full" />
+                      <input name="phone" placeholder="Số điện thoại" onChange={handleChange} required onKeyDown={handleKeyNavigation} className="bg-[#ffffff] p-[5px] text-[20px] text-[#000000] w-full" />   
                   </div>
                 </div>
                <textarea name="target" placeholder="target" required onKeyDown={handleKeyNavigation}
-                      className="border-b border-gray-400 p-2 max-w-[592px] h-[120px]" />               
+                      className="bg-[#ffffff] p-[5px] text-[20px] text-[#000000] w-full max-w-[592px] h-[120px]" />               
                 <button type="submit" className="bg-[#0E1821] text-white rounded-[6px] w-[73px] text-[14px] gap-[6px] px-[12px] py[6px]">
                 Gửi
                 </button>
