@@ -1,7 +1,32 @@
 {
-    "example@gmail.com":{
-        "name": "example name",
-        "phone": "0123456789",
-        "company": "example company"
-    }
+  "khang1@gmail.com": {
+    "name": "võ khang",
+    "phone": "120234354",
+    "company": "fsaf",
+    "target": [
+      {
+        "value": "test1",
+        "date": "2025-08-09 21:52:36"
+      },
+      {
+        "value": "test2",
+        "date": "2025-08-09 21:52:44"
+      }
+    ]
+  },
+  "khang2@gmail.com": {
+    "name": "võ khang2",
+    "phone": "120234354",
+    "company": "fsaf",
+    "target": [
+      {
+        "value": "test1",
+        "date": "2025-08-09 21:53:10"
+      },
+      {
+        "value": "test2",
+        "date": "2025-08-09 21:53:17"
+      }
+    ]
+  }
 }

@@ -56,7 +56,7 @@ export default function RegisterPage() {
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', marginTop: '4px' }}
+            style={{ width: '100%', padding: '8px', marginTop: '4px', background: "#ffffff", color:"#000000" }}
           />
         </div>
 
@@ -68,7 +68,7 @@ export default function RegisterPage() {
             value={passWord}
             onChange={(e) => setPassWord(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', marginTop: '4px' }}
+            style={{ width: '100%', padding: '8px', marginTop: '4px', background: "#ffffff", color:"#000000" }}
           />
         </div>
 
@@ -80,7 +80,7 @@ export default function RegisterPage() {
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', marginTop: '4px' }}
+            style={{ width: '100%', padding: '8px', marginTop: '4px', background: "#ffffff", color:"#000000" }}
           />
         </div>
 
@@ -92,7 +92,7 @@ export default function RegisterPage() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', marginTop: '4px' }}
+            style={{ width: '100%', padding: '8px', marginTop: '4px', background: "#ffffff", color:"#000000" }}
         />
         </div>
 

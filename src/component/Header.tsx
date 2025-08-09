@@ -23,10 +23,10 @@ const Header = () => {
       >
         <Link href="/">
           <Image
-            src="/images/logo-page.jpg"
+            src="/imagepage/logo-page.jpg"
             alt="logo"
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             style={{ borderRadius: '50%', cursor: 'pointer' }}
           />
         </Link>

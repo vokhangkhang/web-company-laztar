@@ -54,10 +54,10 @@ const Header = () => {
           transition={{ duration: 2, repeat: Infinity, repeatDelay: 2 }}
         >
          <Image
-            src="/images/logo-page.jpg"
+            src="/imagepage/logo-page.jpg"
             alt="logo"
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             style={{ borderRadius: '50%', cursor: 'pointer' }}
           />
         </motion.div>
@@ -131,7 +131,7 @@ const Header = () => {
         }}
       >
         <Link href="/admin" style={{ cursor: 'pointer', fontSize: '150%' }}>Home</Link>
-        <Link href="/admin/about_us" style={{ cursor: 'pointer', marginLeft: '5%', fontSize: '150%' }}>About us</Link>
+        <Link href="/admin/about_us" style={{ cursor: 'pointer', marginLeft: '5%', fontSize: '150%' }}>Yêu cầu khách hàng</Link>
         <Link href="/admin/services" style={{ cursor: 'pointer', marginLeft: '3%', fontSize: '150%' }}>Services</Link>
         <Link href="/admin/projects" style={{ cursor: 'pointer', marginLeft: '3%', fontSize: '150%' }}>Update video</Link>
         <Link href="/admin/careers" style={{ cursor: 'pointer', marginLeft: '3%', fontSize: '150%' }}>Careers</Link>

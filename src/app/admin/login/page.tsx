@@ -44,7 +44,7 @@ export default function LoginPage() {
       router.push('/admin/register');
     };
     return (
-        <div style={{ maxWidth: '400px', margin: '80px auto', padding: '20px', border: '1px solid #ccc', borderRadius: '8px' }}>
+        <div style={{ maxWidth: '400px', margin: '80px auto', padding: '20px', border: '1px solid #ccc', borderRadius: '8px', }}>
             <h2 style={{ textAlign: 'center' }}>Đăng nhập</h2>
             <form onSubmit={handleSubmit}>
                 <div style={{ marginBottom: '12px' }}>
@@ -56,7 +56,7 @@ export default function LoginPage() {
                         onChange={(e) => setUserName(e.target.value)}
                         required
                         placeholder="Tên đăng nhập hoặc Email"
-                        style={{ width: '100%', padding: '8px', marginTop: '4px' }}
+                        style={{ width: '100%', padding: '8px', marginTop: '4px', background: "#ffffff", color:"#000000" }}
                     />
                 </div>
 
@@ -65,10 +65,11 @@ export default function LoginPage() {
                     <input
                         type="password"
                         id="passWord"
+                        placeholder='Nhập Password'
                         value={passWord}
                         onChange={(e) => setPassWord(e.target.value)}
                         required
-                        style={{ width: '100%', padding: '8px', marginTop: '4px' }}
+                        style={{ width: '100%', padding: '8px', marginTop: '4px', background: "#ffffff", color:"#000000" }}
                     />
                 </div>
 

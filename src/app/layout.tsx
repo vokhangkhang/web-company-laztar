@@ -1,9 +1,8 @@
-// app/layout.tsx
-
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "@/src/component/Header"; // sửa lại nếu cần
+import Header from "@/src/component/Header";
+import ClearImagesOnLoad from "@/src/component/ClearImagesOnLoad";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
+        <ClearImagesOnLoad /> {/* Gọi API khi load */}
         {children}
       </body>
     </html>
