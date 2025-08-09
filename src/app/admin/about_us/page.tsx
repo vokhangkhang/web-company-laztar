@@ -41,7 +41,7 @@ export default function ListUserPage() {
       .catch((err) => console.error("Lỗi tải dữ liệu:", err));
   }, [router]);
 
-  if (currentUserRole !== "admin") {
+  if (currentUserRole !== "admin" && currentUserRole !== "manager") {
     return null; // Hoặc loading spinner
   }
 
