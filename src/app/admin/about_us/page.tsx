@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 type TargetItem = {
   value: string;
@@ -14,9 +15,20 @@ type UserData = {
 };
 
 export default function ListUserPage() {
+  const router = useRouter();
   const [users, setUsers] = useState<{ email: string; data: UserData }[]>([]);
+  const [currentUserRole, setCurrentUserRole] = useState<string | null>(null);
 
   useEffect(() => {
+    const role = sessionStorage.getItem("role");
+
+    if (role !== "admin" && role !== "manager") {
+      router.push("/admin"); // Không có quyền truy cập
+      return;
+    }
+
+    setCurrentUserRole(role);
+
     fetch("/api/listUser")
       .then((res) => res.json())
       .then((data) => {
@@ -27,7 +39,11 @@ export default function ListUserPage() {
         setUsers(formatted);
       })
       .catch((err) => console.error("Lỗi tải dữ liệu:", err));
-  }, []);
+  }, [router]);
+
+  if (currentUserRole !== "admin") {
+    return null; // Hoặc loading spinner
+  }
 
   return (
     <div className="w-full max-w-[1440px] mx-auto mt-[100px] p-[20px]">

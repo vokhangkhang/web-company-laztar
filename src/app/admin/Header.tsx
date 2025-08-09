@@ -131,7 +131,9 @@ const Header = () => {
         }}
       >
         <Link href="/admin" style={{ cursor: 'pointer', fontSize: '150%' }}>Home</Link>
+        {(role === "admin" || role === "manager") && (
         <Link href="/admin/about_us" style={{ cursor: 'pointer', marginLeft: '5%', fontSize: '150%' }}>Yêu cầu khách hàng</Link>
+        )}
         <Link href="/admin/services" style={{ cursor: 'pointer', marginLeft: '3%', fontSize: '150%' }}>Services</Link>
         <Link href="/admin/projects" style={{ cursor: 'pointer', marginLeft: '3%', fontSize: '150%' }}>Update video</Link>
         <Link href="/admin/careers" style={{ cursor: 'pointer', marginLeft: '3%', fontSize: '150%' }}>Careers</Link>
